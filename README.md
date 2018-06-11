@@ -1,23 +1,25 @@
 # Building Responsive Sites
 
+## Problem Statement
+On the modern web, we frequently access the same content on a variety of
+platforms. Each device will display content differently due to their sizes
+and proportions, causing text to shrink, or parts of the page to shift around,
+and can lead to poor user experience. As front end developers, we want our 
+web sites to look good and function well regardless of whether a user is on 
+their laptop, phone or tablet. This has been an ongoing challenge, so what 
+strategies have been developed to address these issues?
+
 ## Objectives
 
-* Gain a better understanding of why we build responsive websites
-* Discuss existing solutions and techniques to responsive web design
+1. Using server-side detection for redirection
+2. Creating responsive layouts with CSS
+3. What is desktop-down design
+3. What is mobile-up design
+4. Explain graceful degradation
+5. Explain progressive enhancement
+6. Why make users update their browsers
 
-## Why Build a Responsive Website?
-
-On the modern web, we frequently access the same content on a variety of
-platforms, and as front end developers, we want our web sites to look
-good and function well regardless of whether a user is on their laptop, phone
-or tablet. Each device will display our content differently due to their sizes
-and proportions, causing text to shrink, or parts of the page to shift around,
-leading to poor user experience if we're not careful.
-
-This has been an issue for a few years, so a couple of different strategies have
-been developed to address it.
-
-## Server-Side Device Detection
+## Using Server-Side Detection for Redirection
 
 It is possible for web servers to check the requesting device's headers info,
 and send back files specific to the type of device. Going to
@@ -30,7 +32,7 @@ separate websites. Every time you want to change something about the content
 of your site, you have to do it twice, once for both the desktop and mobile
 versions of your site.
 
-## Responsive Layouts Using CSS
+## Creating Responsive Layouts with CSS
 
 The other common solution to is to use Cascading Style Sheets.  Instead of a
 server detecting the type of device, every user receives the same content,
@@ -38,7 +40,7 @@ and the provided CSS informs the user's browser on how to style the DOM. A well
 designed, responsive website relies on a combination of CSS media queries,
 layout properties like flexbox and grid, and HTML viewport settings.
 
-## Desktop-Down Design
+## What is Desktop-Down Design?
 
 There are multiple approaches to responsive design.  One approach is
 _Desktop-down_, where a site is first designed for desktop devices, then
@@ -53,7 +55,7 @@ width and height they should be for a larger screen.  When a smaller screen size
 is detected, the default styling will be overridden and replaced with the rules
 for tablet or mobile styling
 
-## Mobile-Up Design
+## What is Mobile-Up Design
 
 Going in the opposite direction is _Mobile-up_, an approach gaining popularity in
 our modern, mobile world. The idea behind this approach is to design websites
@@ -72,7 +74,7 @@ Mobile-up design means that, by default, elements on the page are positioned are
 positioned and sized for small screens, then overridden if a larger screen is
 detected.
 
-## Graceful Degradation
+## Explain Graceful Degradation
 
 The internet is used by a variety of users, all with different web browser
 versions.  Although the [majority of
@@ -88,21 +90,28 @@ alternatives.  Fully embracing graceful degradation may mean designing your
 website to work even without JavaScript or CSS, using the older, most compliant
 HTML.
 
-## Progressive Enhancement
+## Explain Progressive Enhancement
 
 Just as with mobile-up and desktop-down, progressive enhancement is
 the same as graceful degradation, but in the opposite direction.  Progressive
 enhancement means first designing your website to function at its most basic,
 then upscaling the functionality if the user's browser can handle it.
 
-## Can't We Just Make Users Update Their Browsers?
+## Why Make Users Update Their Browsers?
 
-Yes, we can. Sometimes, you might have to. If, for instance, your website is an
-HTML5 canvas game built with JavaScript, some users will not be able to play
-your game without updating. Beyond that, it is often good practice to make sure
-your site is accessible to the most visitors possible.
+Sometimes, you might have to ask users to update their browsers for compatibility. 
+If, for instance, your website is an HTML5 canvas game built with JavaScript, 
+some users will not be able to play your game without updating. Beyond that, 
+it is often good practice to make sure your site is accessible to the most 
+visitors possible. Luckily, the number of users still on out of date browsers 
+is continuously shrinking, and most modern browsers automatically update to 
+the newest version.
 
-Luckily, the number of users still on out of date browsers is continuously
-shrinking, and most modern browsers automatically update to the newest version.
+## Conclusion
+There are a number of ways that front end developers can accommodate users
+on different platforms. Which method or methods chosen can depend on the 
+core functionality of the website. Understanding these various options will
+help inform hwo your page is built for maximum accessibility--there is no 
+single _right_ way!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/building-responsive-sites' title='Building Responsive Sites'>Building Responsive Sites</a> on Learn.co and start learning to code for free.</p>
