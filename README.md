@@ -11,18 +11,21 @@ strategies have been developed to address these issues?
 
 ## Objectives
 
-1. Using server-side detection for redirection
-2. Creating responsive layouts with CSS
+1. Explain server-side detection for redirection
+2. Explain creating responsive layouts with CSS
 3. What is desktop-down design
-3. What is mobile-up design
-4. Explain graceful degradation
-5. Explain progressive enhancement
-6. Why make users update their browsers
+4. What is mobile-up design
+5. Explain graceful degradation
+6. Explain progressive enhancement
+7. Why make users update their browsers
 
 ## Using Server-Side Detection for Redirection
 
-It is possible for web servers to check the requesting device's headers info,
-and send back files specific to the type of device. Going to
+Every time your web browser opens a web page, it sends information to the server
+called a "request". Part of that request includes a series of "headers". HTTP 
+headers carry information about the client browser, the requested page, the server, 
+and more. It is possible for web servers to check the requesting device's headers 
+information, and send back files specific to the type of device. Going to
 [twitter.com](twitter.com) on your phone will automatically redirect you to
 [mobile.twitter.com](mobile.twitter.com) because their servers detected that a
 phone was sending the request.
@@ -30,15 +33,16 @@ phone was sending the request.
 Unfortunately, while this is a common solution, it requires building _two_
 separate websites. Every time you want to change something about the content
 of your site, you have to do it twice, once for both the desktop and mobile
-versions of your site.
+versions of your site. This is an expensive and error-prone solution.
 
 ## Creating Responsive Layouts with CSS
 
 The other common solution to is to use Cascading Style Sheets.  Instead of a
 server detecting the type of device, every user receives the same content,
-and the provided CSS informs the user's browser on how to style the DOM. A well
-designed, responsive website relies on a combination of CSS media queries,
-layout properties like flexbox and grid, and HTML viewport settings.
+and the provided CSS tells the user's browser on how to style the rendered page. 
+The ideal approach for a well designed, responsive website relies on a combination
+of CSS media  queries, layout properties and HTML the viewport settings that 
+scale the browser content. 
 
 ## What is Desktop-Down Design?
 
@@ -53,11 +57,11 @@ a larger space to work with, a larger canvas for us to paint on.
 Desktop-down design often means that, by default, elements on the page are the
 width and height they should be for a larger screen.  When a smaller screen size
 is detected, the default styling will be overridden and replaced with the rules
-for tablet or mobile styling
+for tablet or mobile styling.
 
 ## What is Mobile-Up Design
 
-Going in the opposite direction is _Mobile-up_, an approach gaining popularity in
+Going in the opposite direction is _mobile-up_ or _mobile-first_, an approach gaining popularity in
 our modern, mobile world. The idea behind this approach is to design websites
 for small screen sizes first. One benefit to this approach is that it ensures
 users have a great experience on mobile, as there is no change it will end up
@@ -111,7 +115,7 @@ the newest version.
 There are a number of ways that front end developers can accommodate users
 on different platforms. Which method or methods chosen can depend on the 
 core functionality of the website. Understanding these various options will
-help inform hwo your page is built for maximum accessibility--there is no 
+help inform how your page is built for maximum accessibility--there is no 
 single _right_ way!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/building-responsive-sites' title='Building Responsive Sites'>Building Responsive Sites</a> on Learn.co and start learning to code for free.</p>
