@@ -17,8 +17,8 @@ In subsequent lessons we will learn to code responsiveness into our sites.
 
 1. Explain server-side detection for redirection
 2. Explain creating responsive layouts with CSS
-3. What is desktop-down design
-4. What is mobile-up design
+3. Explain desktop-down design
+4. Explain mobile-up design
 5. Explain graceful degradation
 6. Explain progressive enhancement
 
