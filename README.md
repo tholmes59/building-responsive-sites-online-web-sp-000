@@ -5,7 +5,7 @@
 On the modern web, we frequently access the same content on a variety of
 devices. Each device will display content differently due to its sizes
 and proportions. This can have unpredictable results: text might appear
-too small, or parts of the page to shift around in an unusual way,
+too small, or parts of the page shift around in an unusual way,
 and can lead to poor user experience. As front-end developers, we want our 
 web sites to look good and function well whether a user is on 
 their laptop, phone or tablet.
