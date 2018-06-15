@@ -16,7 +16,7 @@ In subsequent lessons we will learn to code responsiveness into our sites.
 ## Objectives
 
 1. Explain server-side detection for redirection
-2. Explain creating responsive layouts with CSS
+2. Explain creating responsive sites with CSS
 3. Explain desktop-down design
 4. Explain mobile-up design
 5. Explain graceful degradation
@@ -38,15 +38,22 @@ separate websites. Every time you want to change something about the content
 of your site, you have to do it twice, once for both the desktop and mobile
 versions of your site. This is an expensive and error-prone solution.
 
-## Creating Responsive Layouts with CSS
+## Creating Responsive Sites with CSS
 
 The other common solution to is to use Cascading Style Sheets.  Instead of a
 server detecting the type of device, every user receives the same content,
 and the provided CSS tells the user's browser how to style the rendered page. 
 The ideal approach for a well designed, responsive website relies on a combination
-of CSS media  queries, layout properties and HTML the viewport settings that 
-scale the browser content. In subsequent materials we'll cover each of these
-three techniques. Together they create "responsive layouts."
+of:
+
+1. CSS media queries
+2. Responsive **layout** styling
+3. Responsive **text** styling
+4. Responsive **media element** styling
+5. Responding to the viewport size
+
+In subsequent materials we'll cover each of these techniques.
+Together they create "responsive sites."
 
 ## What is Desktop-Down Design?
 
@@ -107,6 +114,7 @@ then upscaling the functionality if the user's browser can handle it.
 
 
 ## Conclusion
+
 There are a number of ways that front end developers can accommodate users
 on different platforms. Which method or methods chosen can depend on the 
 core functionality of the website. Understanding these various options will
