@@ -21,7 +21,6 @@ In subsequent lessons we will learn to code responsiveness into our sites.
 4. What is mobile-up design
 5. Explain graceful degradation
 6. Explain progressive enhancement
-7. Why make users update their browsers
 
 ## Using Server-Side Detection for Redirection
 
@@ -105,15 +104,6 @@ the same as graceful degradation, but in the opposite direction.  Progressive
 enhancement means first designing your website to function at its most basic,
 then upscaling the functionality if the user's browser can handle it.
 
-## Why Make Users Update Their Browsers?
-
-Sometimes, you might have to ask users to update their browsers for compatibility. 
-If, for instance, your website is an HTML5 canvas game built with JavaScript, 
-some users will not be able to play your game without updating. Beyond that, 
-it is often good practice to make sure your site is accessible to the most 
-visitors possible. Luckily, the number of users still on out of date browsers 
-is continuously shrinking, and most modern browsers automatically update to 
-the newest version.
 
 ## Conclusion
 There are a number of ways that front end developers can accommodate users
