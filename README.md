@@ -1,13 +1,17 @@
 # Building Responsive Sites
 
 ## Problem Statement
+
 On the modern web, we frequently access the same content on a variety of
-platforms. Each device will display content differently due to their sizes
-and proportions, causing text to shrink, or parts of the page to shift around,
-and can lead to poor user experience. As front end developers, we want our 
-web sites to look good and function well regardless of whether a user is on 
-their laptop, phone or tablet. This has been an ongoing challenge, so what 
-strategies have been developed to address these issues?
+devices. Each device will display content differently due to its sizes
+and proportions. This can have unpredictable results: text might appear
+too small, or parts of the page to shift around in an unusual way,
+and can lead to poor user experience. As front-end developers, we want our 
+web sites to look good and function well whether a user is on 
+their laptop, phone or tablet.
+
+In this lesson we will outline the high-level approaches for these concerns.
+In subsequent lessons we will learn to code responsiveness into our sites.
 
 ## Objectives
 
