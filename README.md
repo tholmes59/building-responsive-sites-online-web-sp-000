@@ -42,7 +42,7 @@ versions of your site. This is an expensive and error-prone solution.
 
 The other common solution to is to use Cascading Style Sheets.  Instead of a
 server detecting the type of device, every user receives the same content,
-and the provided CSS tells the user's browser on how to style the rendered page. 
+and the provided CSS tells the user's browser how to style the rendered page. 
 The ideal approach for a well designed, responsive website relies on a combination
 of CSS media  queries, layout properties and HTML the viewport settings that 
 scale the browser content. 
