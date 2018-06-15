@@ -45,7 +45,8 @@ server detecting the type of device, every user receives the same content,
 and the provided CSS tells the user's browser how to style the rendered page. 
 The ideal approach for a well designed, responsive website relies on a combination
 of CSS media  queries, layout properties and HTML the viewport settings that 
-scale the browser content. 
+scale the browser content. In subsequent materials we'll cover each of these
+three techniques. Together they create "responsive layouts."
 
 ## What is Desktop-Down Design?
 
