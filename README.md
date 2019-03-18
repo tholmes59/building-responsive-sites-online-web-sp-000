@@ -85,7 +85,7 @@ toolbar](https://developers.google.com/web/tools/chrome-devtools/device-mode/emu
 within the developer tools, that lets you mimic the proportions of popular
 mobile devices.
 
-Mobile-up design means that, by default, elements on the page are positioned are
+Mobile-up design means that, by default, elements on the page are
 positioned and sized for small screens, then overridden if a larger screen is
 detected.
 
